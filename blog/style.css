@@ -47,6 +47,10 @@ a:visited {
     margin-left: 150px;
 }
 
+.postButForLongerTitle {
+    margin-left: 290px;
+}
+
 :root {
     font-family: Fredoka;
     color: white;
