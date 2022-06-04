@@ -51,10 +51,11 @@ a:visited {
     margin-left: 290px;
 }
 
+
 :root {
     font-family: Fredoka;
     color: white;
     background-color: #11141f;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
 }
