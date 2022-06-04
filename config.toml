@@ -1,0 +1,40 @@
+baseURL = "http://www.example.com"
+title = "NightlyPie"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+
+[params]
+  author = "NightlyPie"
+  info = "Just a guy that likes Pie"
+  description = "NightlyPie's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "/images/avatar.jpg"
+
+  favicon_32 = "/images/favicon-32x32.png"
+  favicon_16 = "/images/favicon-16x16.png"
+
+  since = 2022
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
+[[menu.main]]
+  name = "Projects"
+  weight = 2
+  url = "projects/"
