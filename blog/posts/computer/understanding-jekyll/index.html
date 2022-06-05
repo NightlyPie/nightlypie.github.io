@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NightlyPie's Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../../../../assets/images/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="../../../../assets/images/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="../../../../assets/images/favicon.ico" type="image/png">
+    <meta name="description"
+        content="Hey! I'm Nightly. Short for NightlyPie (he/him). I usually talk about a little bit of my life, and some programming in my blog. Ok maybe a little bit of random things too.">
+    <link rel="canonical" href="https://nightlypie.github.io/" />
+    <meta name="author" content="NightlyPie">
+    <meta name="keywords" content="NightlyPie, Personal Website, Programming, Random Things">
+</head>
+
+<body>
+
+    <div class="container">
+        <a href="../../../../">Home</a>
+        <a class="active" href="../../../">Blog</a>
+    </div>
+
+    <div class="blog">
+        <h2>Understanding Jekyll</h2>
+        <hr>
+        <p class="contents">
+            If you have read my last blog post, I experimented with Jekyll
+            and my dumbass still didn't understand it.<br><br>
+
+            Okay so uhhh, maybe saying "doesnt understand" is a bit of an exaggeration<br>
+            I do understand Jekyll, but I guess my brain was acting up that I convinced myself that Jekyll was too
+            complicated.
+
+            <br><br>//////<br>> Making a post<br><br>
+
+            Basically, I thought there was a command that you was supposed to do to make
+            a new post.<br>
+            Nope, I was stupid. You have to manually make it.<br>
+            Thankfully, It wasn't really that hard<br>
+            All I did was:<br>
+            <mark>
+                $ touch [YEAR-MONTH-DATE-TITLE].md
+            </mark><br><br>
+            And from there, add<br>
+            <mark>
+
+                --- <br>
+                title: [TITLE]<br>
+                layout: post<br>
+                ---
+
+            </mark><br>
+            To the top of the markdown file you just created(Add it without the quotations)<br>
+
+            <br><br>//////<br>> Themes<br><br>
+            Let's get to the fun part: Themes.<br>
+            Now I won't be having the correct informations with themes because.. Well..<br>
+            I literally only spent like 30 minutes messing around with Jekyll<br><br>
+
+            Some themes require you to fork the theme, Some themes require you to just add a line in Gemfile.<br>
+
+            We will only be focusing on adding the Gemfile method because I don't really understand the forking method
+            yet.<br><br>
+
+            You can first start by typing:<br>
+            <mark>
+                gem "[THEME-NAME]"
+            </mark><br>
+            On Gemfile (It should be there from when you first execute the command to make a new website)
+            <br><br>
+
+            You can then do:<br>
+            <mark>
+                $ bundle install
+            </mark><br>
+            To make sure that the themes is installed so no errors occur
+            <br><br>
+
+            And then replace the "theme" part in _config.yml with your theme name.<br>
+            <mark>
+                theme: [THEME-NAME]
+            </mark>
+
+            <br><br>//////<br>> Conclusion<br><br>
+
+            Jekyll is a pretty nice way to make a website.<br>
+            It's really simple, and unless you're a lazy person(like me), it is going to be easy to understand.<br>
+            I probably will still use my own code instead of Jekyll until I found the theme that is *PERFECT* or the
+            most similiar to my current one.
+
+
+        </p>
+    </div>
+</body>
+
+</html>
