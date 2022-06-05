@@ -51,6 +51,11 @@ hr {
     font-size: 19px;
 }
 
+mark {
+    background-color: #11141f;
+    color: #4287f6;
+}
+
 :root {
     font-family: Fredoka;
     color: white;
