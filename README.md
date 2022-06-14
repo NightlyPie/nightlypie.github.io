@@ -3,4 +3,6 @@ Personal Website - https://nightlypie.github.io
 
 HUGELY HUGELY inspired by a jekyll theme called "no style, please!' (blog page) and https://theevilskeleton.gitlab.io/ (motivation)
 
-The blog page is a bit hard to maintain, so I won't be uploading to it as frequent. It will also give me time to think of an idea for the new blog post.
+## rewrite (again) coming soon
+why rewrite? the website is too hard to maintain  
+expect it to come in the next 1 or 10 days (if i stop procrastinating)
