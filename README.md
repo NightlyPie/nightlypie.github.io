@@ -5,4 +5,4 @@ HUGELY HUGELY inspired by a jekyll theme called "no style, please!' (blog page) 
 
 ## rewrite (again) coming soon
 why rewrite? the website is too hard to maintain  
-expect it to come in the next 1 or 10 days (if i stop procrastinating)
+expect it to come in the next 1 or 10 days.. or even the next 2 weeks! (if i stop procrastinating)
