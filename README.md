@@ -5,5 +5,5 @@ HUGELY HUGELY inspired by a jekyll theme called "no style, please!' (blog page) 
 
 ## rewrite (again) coming soon
 why rewrite? the website is too hard to maintain  
-just give me like a week and then another 2 weeks to make the rewrite. trying to learn nextjs while making a website is hard(yes, the website is going to be made in nextjs.. i hope)  
+~~just give me like a week and then another 2 weeks to make the rewrite. trying to learn nextjs while making a website is hard(yes, the website is going to be made in nextjs.. i hope)~~ ok maybe not, this will take longer sadly  
 i'll just push minor changes instead of major for now.
