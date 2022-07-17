@@ -28,6 +28,21 @@
     font-size: 2vw;
 }
 
+#images {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#links {
+    text-align: center;
+    font-size: 2vw;
+}
+
+a {
+    border: none;
+    text-decoration: none;
+}
+
 .highlighted__text {
     color: #8caaee;
 }
