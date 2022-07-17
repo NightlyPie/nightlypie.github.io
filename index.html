@@ -1,45 +1,71 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/images/favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="icon" href="assets/images/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="assets/images/favicon.ico" type="image/png">
-    <meta name="description"
-        content="Hey! I'm Nightly. Short for NightlyPie (he/him). I usually talk about a little bit of my life, and some programming in my blog. Ok maybe a little bit of random things too.">
-    <link rel="canonical" href="https://nightlypie.github.io/" />
-    <meta name="author" content="NightlyPie">
-    <meta name="keywords" content="NightlyPie, Personal Website, Programming, Random Things">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NightlyPie</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
-</head>
+    <link
+      rel="shortcut icon"
+      href="data/images/profile.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <section id="center">
+      <div id="header" data-aos="fade-right">
+        <h1>
+          <span class="highlighted__text">Hey,</span> <br />
+          I'm Nightly
+        </h1>
+      </div>
+    </section>
 
-<body>
+    <section id="center">
+      <div id="description__header" data-aos="fade-up">
+        <h1>
+          I'm a guy, <br />
+          <span class="highlighted__text">That likes pie! </span>
+        </h1>
+      </div>
+    </section>
 
-    <div class="container">
-        <a class="active" href="#home">Home</a>
-        <a href="blog/">Blog</a>
-    </div>
+    <section id="center">
+      <div id="about__header" data-aos="fade-down">
+        <h1>
+          I also use <span class="highlighted__text">GNU/Linux</span>, <br />
+          And I love to watch anime <br />
+          on my free time
+        </h1>
+      </div>
+    </section>
 
-    <img src="assets/images/avatar.png" alt="Avatar" class="avatar">
-    <h2>Hey! I'm Nightly. Short for <a href="https://github.com/NightlyPie">NightlyPie</a> (he/him)</h2>
-    🥧 I'm a guy, that likes pie!<br>
-    🐧 I also use GNU/Linux. More Specifically: <a href="http://debian.org">Debian</a><br>
-    🖥️ I'm currently learning Java, React, and C. Why not?<br>
-    ⌨️ I talk about random things in my blogs.<br>
-    💚 I love to watch anime, learn new things, customizing, and gaming!<br><br>
-    If you happen to find one of my Projects, don't expect my codes to be good and efficient.<br>
-    Profile picture is NOT mine, and is made by <a href="https://www.pixiv.net/en/users/15181105">tatara</a>
-    <br><a href="https://github.com/NightlyPie/nightlypie.github.io">This website's repo</a>
-    <br><br>Contact me on:
-    <br>Email: <a href="mailto:NightlyPie@gmail.com">NightlyPie@gmail.com</a>
+    <section id="center">
+      <div id="links" data-aos="fade-left">
+        <a href="https://github.com/NightlyPie">
+          <img src="assets/images/GitHub-Mark-Light-64px.png" alt="Github" />
+        </a>
+      </div>
+    </section>
 
-</body>
-
+    <script>
+      AOS.init({
+        once: false,
+        mirror: true,
+        anchorPlacement: "top-bottom",
+        offset: 0,
+        duration: 800,
+      });
+    </script>
+  </body>
 </html>
